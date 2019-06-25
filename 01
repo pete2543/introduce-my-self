@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+int main ()
+{	
+ string Name  ="Kangkei Suwanna";
+	 short  Scores1 = 70 ;
+	 short  Scores2 = 80 ;
+	 char Grade = 'b';
+	 float GPA= 3.00;
+	 cout<< "My name is"<<":"<<Name <<endl;
+	 cout<< "My scores1"<<":"<<Scores1<<endl;
+	  cout<< "My scores2"<<":"<<Scores2<<endl;	 
+	  cout<< "Total"<<":"<<Scores1+Scores2<<endl;
+	  cout<<"GPA" <<":"<<GPA<<endl;
+
+	  
+
+	return (0);
+}
